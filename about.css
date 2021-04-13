@@ -1,0 +1,171 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bgimage{	
+	background-color: yellow;
+	width: 100%;
+	height: 100vh;
+}
+
+.container{
+	width: 100%;
+	height: 510px;
+	background-color: rgba(0,0,0,0.6);
+
+}
+.container h1 {
+
+	color: orange;
+	text-align: center;
+	text-transform: uppercase;
+}
+.container p{
+	margin-top: 40px;
+	color: white;
+	text-align: center;
+	margin-left: 500px;
+	margin-right: 500px;
+	font-size: 20px;
+}
+
+
+.container img {
+	height: 500px;
+	margin-left: 520px;
+}
+.tops h1{
+	color: red;
+	font-size: 35px; 
+	background-color:pink;
+	text-align: center;
+	border-right: 5px white;
+	border-left: 5px white;
+}
+
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,10);
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+/*	background-color: yellow;*/
+}
+
+.leftmenu h4{
+	padding-left: 50px;
+	font-weight: bold;
+	color: blue;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+	width:90%;
+	height: 100px;
+	float: right;
+
+/*	background-color: red; */
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+	color:orange;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+#fisrtlist{
+	font-size: 20px;
+}
+
+.rightmenu ul li a {
+	text-decoration:none;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.rightmenu ul li a:hover {
+	color:grey;
+}
+
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+
+}
+
+.text h4{
+
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.text h3{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer h1{
+	color: white;
+	font-size: 35px; 
+	background-color:green;
+	text-align: center;
+	border-right: 5px solid orange;
+	border-left: 5px solid orange;
+
+
+#buttonone{
+	background-color: yellow;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 1px solid gold;
+}
+
+#buttontwo{
+
+	background-color: white;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+	border: 1px solid gold;
+	width: 150px;
+}
